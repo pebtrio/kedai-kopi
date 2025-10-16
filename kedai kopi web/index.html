@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kedai Kopi Kekinian</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="header-container">
+        <h1 class="logo">Kedai Kopi Gen-Z</h1>
+        <nav>
+          <a href="#home" data-section="hero">Home</a>
+          <a href="#menu" data-section="menu">Menu</a>
+          <a href="#kontak" data-section="kontak">Kontak</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <!-- HERO -->
+      <section id="hero" class="aktif">
+        <div class="hero-text">
+          <h2>Rasakan Kopi Asli Nusantara</h2>
+          <p>Dari biji pilihan, diseduh dengan cinta untuk semangat harimu.</p>
+          <button id="btn-scroll">Lihat Menu</button>
+        </div>
+      </section>
+
+      <!-- MENU & KERANJANG -->
+      <section id="menu">
+        <h3>Menu Favorit</h3>
+        <div class="daftar-produk" id="daftar-produk"></div>
+
+        <div class="ringkasan-belanja">
+          <h4>🛒 Keranjang Belanja</h4>
+          <div id="isi-keranjang"></div>
+          <p>
+            <strong>Total: Rp <span id="total">0</span></strong>
+          </p>
+
+          <input type="text" id="voucher" placeholder="Masukkan kode voucher" />
+          <div class="tombol-keranjang">
+            <button id="btn-reset">Reset</button>
+            <button id="btn-checkout">Checkout</button>
+          </div>
+          <div id="hasil-checkout"></div>
+        </div>
+      </section>
+
+      <!-- KONTAK -->
+      <section id="kontak" class="content">
+        <h3>Hubungi Kami</h3>
+        <p>📍 Jl. Kopi Hangat No.7, Bandung</p>
+        <p>📞 0812-3456-7890</p>
+        <p>📧 kopikekinian@gmail.com</p>
+      </section>
+    </main>
+
+    <footer>
+      <p>© 2025 Kedai Kopi Kekinian — Cita Rasa Asli Nusantara</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
